@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor & Fuego - Restaurante</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Sabor & Fuego</h1>
+            <p>Restaurante</p>
+        </div>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <button id="boton-carrito">
+            Mi pedido (<span id="contador-carrito">0</span>)
+        </button>
+    </header>
+
+
+    <main>
+
+        <section id="inicio">
+            <div>
+                <p>BIENVENIDO A</p>
+                <h2>Sabor & Fuego</h2>
+                <h3>Sabores que enamoran</h3>
+
+                <p>
+                    En Sabor & Fuego creemos que la buena comida
+                    no solo se come, se disfruta. Ofrecemos una
+                    experiencia gastronómica única con ingredientes
+                    frescos, recetas artesanales y el mejor ambiente.
+                </p>
+
+                <a href="#menu">Ver menú</a>
+            </div>
+        </section>
+
+
+        <section id="menu">
+
+            <h2>Nuestro Menú</h2>
+
+            <p>
+                Platos preparados con pasión, ingredientes frescos
+                y mucho sabor.
+            </p>
+
+
+            <article class="producto">
+
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                     alt="Hamburguesa">
+
+                <h3>Hamburguesa Sabor</h3>
+
+                <p>
+                    Carne artesanal, queso cheddar, lechuga,
+                    tomate y nuestra salsa especial.
+                </p>
+
+                <p>$25.000</p>
+
+                <button class="agregar-carrito"
+                        data-nombre="Hamburguesa Sabor"
+                        data-precio="25000">
+                    Agregar al pedido
+                </button>
+
+            </article>
+
+
+            <article class="producto">
+
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+                     alt="Pizza">
+
+                <h3>Pizza Especial</h3>
+
+                <p>
+                    Masa artesanal, salsa de tomate,
+                    queso mozzarella, pepperoni y orégano.
+                </p>
+
+                <p>$32.000</p>
+
+                <button class="agregar-carrito"
+                        data-nombre="Pizza Especial"
+                        data-precio="32000">
+                    Agregar al pedido
+                </button>
+
+            </article>
+
+
+            <article class="producto">
+
+                <img src="https://images.unsplash.com/photo-1551892374-ecf8754cf8b0"
+                     alt="Pasta">
+
+                <h3>Pasta Cremosa</h3>
+
+                <p>
+                    Pasta en salsa blanca con pollo,
+                    champiñones y queso parmesano.
+                </p>
+
+                <p>$28.000</p>
+
+                <button class="agregar-carrito"
+                        data-nombre="Pasta Cremosa"
+                        data-precio="28000">
+                    Agregar al pedido
+                </button>
+
+            </article>
+
+
+            <article class="producto">
+
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187"
+                     alt="Cheesecake">
+
+                <h3>Cheesecake</h3>
+
+                <p>
+                    Base de galleta, queso crema
+                    y salsa de frutos rojos.
+                </p>
+
+                <p>$15.000</p>
+
+                <button class="agregar-carrito"
+                        data-nombre="Cheesecake"
+                        data-precio="15000">
+                    Agregar al pedido
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <section id="nosotros">
+
+            <h2>Nosotros</h2>
+
+            <p>
+                Somos un restaurante familiar que nació del amor
+                por la buena comida y los momentos especiales.
+            </p>
+
+            <p>
+                Trabajamos con ingredientes frescos y de alta
+                calidad para ofrecer platos llenos de sabor,
+                en un ambiente cálido y acogedor.
+            </p>
+
+            <ul>
+                <li>Ingredientes frescos</li>
+                <li>Recetas artesanales</li>
+                <li>Ambiente acogedor</li>
+            </ul>
+
+        </section>
+
+
+        <section id="pedido">
+
+            <h2>Mi pedido</h2>
+
+            <p>
+                Productos:
+                <span id="cantidad-pedido">0</span>
+            </p>
+
+            <p>
+                Total:
+                $<span id="total-pedido">0</span>
+            </p>
+
+            <button id="confirmar-pedido">
+                Confirmar pedido
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer id="contacto">
+
+        <h2>Sabor & Fuego</h2>
+
+        <h3>Contacto</h3>
+
+        <p>Teléfono: +57 300 123 4567</p>
+        <p>Email: saborfuego@restaurante.com</p>
+        <p>Dirección: Cra. 10 # 20-30</p>
+
+        <p>
+            ©️ 2026 Sabor & Fuego. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+</html>
